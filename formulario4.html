@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VALIDACION FORMULARIO4-LIZETH CAMACHO</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo_formu.css">
+	<script type="text/javascript" src="js/expresiones_regulares.js"></script>
+	<script type="text/javascript" src="js/validacion4.js"></script>
+   </head>
+<body>
+	<div id="subtitulo2">Formulario 4</div>
+	<form name="formu" action="#" method="post">
+		<input type="text" name="nombres" placeholder="NOMBRES" onkeyup="this.value=this.value.toUpperCase()" class="otro">
+		<input type="text" name="ap" placeholder="APELLIDO PATERNO" onkeyup="this.value=this.value.toUpperCase()" class="otro">
+		PROFESION:<select name="profesion">
+			   		<option value="">...........</option>
+			   		<option value="Informatica">Informatica</option>
+			   		<option value="Civil">Civil</option>
+			   		<option value="Arquitectura">Arquitectura</option>			
+		       </select><p></p>
+		<input type="button" name="boton" value="ENVIAR" class="boton" onclick="validar()">
+	</form>
+
+</body>
+</html>

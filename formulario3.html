@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VALIDACION FORMULARIO3-LIZETH CAMACHO</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo_formu.css">
+	<script type="text/javascript" src="js/expresiones_regulares.js"></script>
+	<script type="text/javascript" src="js/validacion3.js"></script>
+   </head>
+<body>
+	<div id="subtitulo2">Formulario 3</div>
+	<form name="formu" action="#" method="post">
+		<input type="text" name="nombres" placeholder="NOMBRES" onkeyup="this.value=this.value.toUpperCase()" class="otro">
+		<input type="text" name="ap" placeholder="APELLIDO PATERNO" onkeyup="this.value=this.value.toUpperCase()" class="otro">
+		GENERO: <input type="radio" name="genero" value="f">Femenino
+		       <input type="radio" name="genero" value="m">Masculino<p></p>
+		<input type="button" name="boton" value="ENVIAR" class="boton" onclick="validar()">
+	</form>
+
+</body>
+</html>
